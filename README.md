@@ -4,6 +4,8 @@ Swift Koans for Learning Swift
 
 # Functional Oriented Programming
 
+### Lesson 1
+
 Step 1 - Function Reference
 ```swift
 let foo = print
@@ -30,6 +32,8 @@ foo()
 foo = { print("Hello World!") }
 foo()
 ```
+
+### Lesson 2
 
 (Closure With Parameter)
 (Closure With Return Type)
