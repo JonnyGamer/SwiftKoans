@@ -4,6 +4,30 @@ Swift Koans for Learning Swift
 
 # Functional Oriented Programming
 
+### Contents
+
+- Lesson 1 - Function Reference
+  1. Function Reference
+  2. Explicit Type of Basic Function
+  3. Create a Basic Closure
+  4. Variable Function Reference  
+- Lesson 2 - Closure Parameters/Return Types
+  1. Anonymous Parameter
+  2. Multiple Anonymous Parameters
+  3. Not Anonymous Parameter
+  4. Multiple Not Anonymous Parameters
+  5. Ignored Anonymous Parameter
+  6. Closure Return Types
+- Lesson 3 - Closure *as* Parameters/Return Types
+  1. Step 1 - Basic Closure as a Parameter
+  2. Super Cool Closure Syntax...
+  3. Multiple Trailing Closures
+  4. Closure as Return Type
+- Lesson 4 - Advanced Closure Types
+  1. Confusing Syntax
+  2. Confusing Syntax
+  3. Tuples with Closure Elements
+
 ### Lesson 1 - Introduction
 
 Step 1 - Function Reference
