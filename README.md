@@ -179,3 +179,24 @@ let foo: (Int, foo: () -> ()) = (1, { print("Hello World!") })
 foo.1()
 foo.foo()
 ```
+
+Step 4 - Closure as Variadic Parameter
+```swift
+func foo(variadic: () -> ()...) {}
+
+foo {
+    print("Wo")
+} _: {
+    print("Wo")
+} _: {
+    print("Wo")
+} _: {
+    print("Wo")
+}
+```
+
+Step 5 - Closure with Variadic Parameter
+```swift
+let foo: (Int...) -> () = { (a: Int...) in print(a) }
+foo(1, 2, 3, 4)
+```
