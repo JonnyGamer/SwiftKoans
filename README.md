@@ -123,6 +123,15 @@ foo(c1: {
 }
 ```
 
+Step 4 - Closure as Return Type
+```swift
+func foo() -> () -> () {
+    return { print("Hello World!") }
+}
+
+foo()()
+```
+
 ### Lesson 4 - Advanced Closure Types
 
 
