@@ -4,7 +4,7 @@ Swift Koans for Learning Swift
 
 # Functional Oriented Programming
 
-### Lesson 1
+### Lesson 1 - Introduction
 
 Step 1 - Function Reference
 ```swift
