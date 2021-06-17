@@ -65,15 +65,15 @@ foo(0, 0, 0)
 ```
 Step 5 - Ignored Anonymous Parameter
 ```swift
-let foo: (Int) -> () = { _ in }
-let bar1: (Int, Int, Int) -> () = { _, _, _ in }
-let bar2: (Int, Int, Int) -> () = { a, _, _ in }
+let _: (Int) -> () = { _ in }
+let _: (Int, Int, Int) -> () = { _, _, _ in }
+let _: (Int, Int, Int) -> () = { a, _, _ in }
 ```
 
 Step 6 - Closure Return Types
 ```swift
-let increment: (Int) -> Int { return $0 + 1 }
-print(foo(1))
+let increment: (Int) -> Int = { return $0 + 1 }
+print(increment(1))
 ```
 
 ### Lesson 3 - Closure *as* Parameters/Return Types
