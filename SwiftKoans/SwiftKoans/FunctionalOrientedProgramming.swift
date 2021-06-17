@@ -148,9 +148,30 @@ struct FunctionalOrientedProgramming {
             foo.1()
             foo.foo()
         }
+        
+        func step4() {
+            func foo(variadic: () -> ()...) {}
+            
+            foo {
+                print("Wo")
+            } _: {
+                print("Wo")
+            } _: {
+                print("Wo")
+            } _: {
+                print("Wo")
+            }
+        }
+        
+        func step5() {
+            let foo: (Int...) -> () = { (a: Int...) in print(a) }
+            foo(1, 2, 3, 4)
+        }
     }
     
 }
+
+
 
 
 
