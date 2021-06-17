@@ -84,8 +84,8 @@ func foo(closure: () -> ()) {
     closure()   
 }
 
-foo({ print("Hello World!") })
-foo({ print("Goodbye World!") })
+foo(closure: { print("Hello World!") })
+foo { print("Hello World!") }
 ```
 
 Step 2 - Super Cool Closure Syntax...
