@@ -134,10 +134,24 @@ foo()()
 
 ### Lesson 4 - Advanced Closure Types
 
+Step 1 - Confusing Syntax
+```swift
+// Are the following equivalent types?
+// () -> () -> ()
+// () -> (() -> ())
+// Answer is... Yes.
+assert("\((() -> () -> ()).self)" == "\((() -> (() -> ())).self)")
+```
+Step 2 - Confusing Syntax
+```swift
+let foo: (() -> ()) -> () = { $0() }
+foo { print("Hello World!") }
+foo { print("Goodbye World!") }
+```
 
-
-(Closure as Parameter)
-(Closure(s) as Final Parameter(s))
-(Closure as return type) `foo()()`
-(Closure inside tuple? (Int, () -> ())) hmmm??? `(1) { print("WO") }` (tuple.1())
-- what type is `() -> () -> ()` and `(() -> ()) -> ()`
+Step 3 - Tuples with Closure Elements
+```swift
+let foo: (Int, foo: () -> ()) = (1, { print("Hello World!") })
+foo.1()
+foo.foo()
+```
