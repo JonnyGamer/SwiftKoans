@@ -33,10 +33,49 @@ foo = { print("Hello World!") }
 foo()
 ```
 
-### Lesson 2
+### Lesson 2 - Closure Parameters/Return Types
 
-(Closure With Parameter)
-(Closure With Return Type)
+Step 1 - Anonymous Parameter
+```swift
+let foo: (Int) -> () = { print($0) }
+foo(1)
+foo(2)
+```
+
+Step 2 - Multiple Anonymous Parameters
+```swift
+let foo: (Int, Int, Int, Int, Int) -> () = { print($0, $1, $2, $3, $4) }
+foo(10, 2, 5, 5, -1)
+```
+
+Step 3 - Not Anonymous Parameter
+```swift
+let foo: (Int) -> () = { wow in
+    print(wow) 
+}
+foo(1)
+```
+
+Step 4 - Multiple Not Anonymous Parameters
+```swift
+let foo: (Int, Int, Int) -> () = { a, b, c in
+    print(a, b, c) 
+}
+foo(0, 0, 0)
+```
+Step 5 - Ignored Anonymous Parameter
+```swift
+let foo: (Int) -> () = { _ in  }
+```
+
+Step 6 - Closure Return Types
+```swift
+let increment: (Int) -> Int { return $0 + 1 }
+print(foo(1))
+```
+
+### Lesson 3 - Closure *as* Parameters/Return Types
+
 (Closure as Parameter)
 (Closure(s) as Final Parameter(s))
 (Closure as return type) `foo()()`
