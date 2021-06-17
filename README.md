@@ -65,7 +65,9 @@ foo(0, 0, 0)
 ```
 Step 5 - Ignored Anonymous Parameter
 ```swift
-let foo: (Int) -> () = { _ in  }
+let foo: (Int) -> () = { _ in }
+let bar1: (Int, Int, Int) -> () = { _, _, _ in }
+let bar2: (Int, Int, Int) -> () = { a, _, _ in }
 ```
 
 Step 6 - Closure Return Types
@@ -76,7 +78,29 @@ print(foo(1))
 
 ### Lesson 3 - Closure *as* Parameters/Return Types
 
+Step 1 - Basic Closure as a Parameter
+```swift
+func foo(closure: () -> ()) {
+    closure()   
+}
+
+foo({ print("Hello World!") })
+foo({ print("Goodbye World!") })
+```
+
+Step 2 - Super Cool Closure Syntax...
+```swift
+func foo(a: Int, b: Int, c: () -> ()) {}
+
+foo(1, 2) { print("is not this cool?") }
+```
+
+### Lesson 4 - Advanced Closure Types
+
+
+
 (Closure as Parameter)
 (Closure(s) as Final Parameter(s))
 (Closure as return type) `foo()()`
 (Closure inside tuple? (Int, () -> ())) hmmm??? `(1) { print("WO") }` (tuple.1())
+- what type is `() -> () -> ()` and `(() -> ()) -> ()`
