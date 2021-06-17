@@ -90,9 +90,37 @@ foo({ print("Goodbye World!") })
 
 Step 2 - Super Cool Closure Syntax...
 ```swift
-func foo(a: Int, b: Int, c: () -> ()) {}
+func foo(a: Int, b: Int, closure: () -> ()) {
+    closure()
+}
 
-foo(1, 2) { print("is not this cool?") }
+foo(a: 1, b: 1, closure: { print("Hello World!") })
+foo(a: 1, b: 1) { print("Hello World!") }
+```
+
+Step 3 - Multiple Trailing Closures
+```swift
+func foo(c1: () -> (), a: Int, c2: () -> (), c3: () -> ()) {
+    c1(); c2(); c3()
+}
+
+// Normal Way
+foo(c1: {
+    print("One")
+}, a: 1, c2: {
+    print("Two")
+}, c3: {
+    print("Three")
+})
+
+// Fancy Way
+foo(c1: {
+    print("One")
+}, a: 1) {
+    print("Two")
+} c3: {
+    print("Three")
+}
 ```
 
 ### Lesson 4 - Advanced Closure Types
