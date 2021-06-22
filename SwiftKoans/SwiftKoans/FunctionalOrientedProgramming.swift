@@ -5,8 +5,7 @@
 //  Created by Jonathan Pappas on 6/17/21.
 //
 
-// Extensions...
-func print(_ this: Any) { Swift.print(this) }
+
 
 
 
@@ -14,8 +13,8 @@ struct FunctionalOrientedProgramming {
     
     struct Lesson1 {
         func step1() {
-            let foo = print
-            foo("Hello World!")
+            //let foo = print.superPrint()
+            //_ = foo("Hello World!")
         }
         
         func step2() {
@@ -45,7 +44,7 @@ struct FunctionalOrientedProgramming {
         }
         
         func step2() {
-            let foo: (Int, Int, Int, Int, Int) -> () = { print($0, $1, $2, $3, $4) }
+            let foo: (Int, Int, Int, Int, Int) -> () = { Swift.print($0, $1, $2, $3, $4) }
             foo(10, 2, 5, 5, -1)
         }
         
@@ -58,7 +57,7 @@ struct FunctionalOrientedProgramming {
         
         func step4() {
             let foo: (Int, Int, Int) -> () = { a, b, c in
-                print(a, b, c)
+                Swift.print(a, b, c)
             }
             foo(0, 0, 0)
         }
@@ -167,12 +166,77 @@ struct FunctionalOrientedProgramming {
             let foo: (Int...) -> () = { (a: Int...) in print(a) }
             foo(1, 2, 3, 4)
         }
+        
+        func step6() {
+            let foo: () -> () = {}
+            print(foo as AnyObject === foo as AnyObject)
+        }
+        
+        func step50() {
+            func foo() {}
+            let bar: () -> () = {}
+            print("\(type(of: foo))" == "\(type(of: bar)))")
+        }
+        
+        func step60() {
+            var bar: () -> () = {}
+            do {
+                var wow = 1
+                func foo() {
+                    wow += 1
+                    print(wow)
+                }
+                bar = foo
+            }
+            bar()
+            bar()
+            bar()
+        }
+        
+        func step61() {
+            var bar: () -> Any = {return 0}
+            
+            // Magic as Struct
+            do {
+                struct Magic {}
+                let wow = Magic()
+                func foo() -> Magic {
+                    return wow
+                }
+                bar = foo
+            }
+            print(bar())
+            print(type(of: bar()))
+            
+            // Magic as Class
+            // SwiftKoans.FunctionalOrientedProgramming.Lesson4.(unknown context at $100003be4).(unknown context at $100003cbc).Magic
+            do {
+                class Magic: wooo {}
+                let wow = Magic()
+                func foo() -> Magic {
+                    return wow
+                }
+                bar = foo
+            }
+            print(bar())
+            print(type(of: bar()))
+            print((bar() as! wooo).woo())
+        }
+        
+        func step70() {
+            // let foo: () -> () = { // ERROR: Closure captures 'foo' before it is declared
+            //     foo()
+            // }
+            // foo()
+        }
+        
     }
     
 }
 
 
 
-
+protocol wooo {}
+extension wooo { func woo() -> Int { return 1 } }
 
 

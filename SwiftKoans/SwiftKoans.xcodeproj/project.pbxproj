@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		1BAE3271267C02DA005C38B6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE3270267C02DA005C38B6 /* main.swift */; };
 		1BAE3278267C02F6005C38B6 /* FunctionalOrientedProgramming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE3277267C02F6005C38B6 /* FunctionalOrientedProgramming.swift */; };
+		1BDF73AD267FE9F10006DB65 /* KonesFromTheBeginning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDF73AC267FE9F10006DB65 /* KonesFromTheBeginning.swift */; };
+		1BDF73AF267FF6D20006DB65 /* ReallyAdvancedPrinting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDF73AE267FF6D20006DB65 /* ReallyAdvancedPrinting.swift */; };
+		1BDF73B926824BAE0006DB65 /* KoansTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDF73B826824BAE0006DB65 /* KoansTests.swift */; };
+		1BDF73BE26824BC10006DB65 /* PropertyWrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDF73B026824B040006DB65 /* PropertyWrappers.swift */; };
+		1BDF73BF26824EAA0006DB65 /* PropertyWrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDF73B026824B040006DB65 /* PropertyWrappers.swift */; };
+		1BDF73C1268258170006DB65 /* GreatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDF73C0268258170006DB65 /* GreatExtensions.swift */; };
+		1BDF73C3268259F60006DB65 /* ReactorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDF73C2268259F60006DB65 /* ReactorWrapper.swift */; };
+		1BDF73C526825A040006DB65 /* SpriteKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDF73C426825A040006DB65 /* SpriteKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,10 +35,26 @@
 		1BAE326D267C02DA005C38B6 /* SwiftKoans */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftKoans; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BAE3270267C02DA005C38B6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1BAE3277267C02F6005C38B6 /* FunctionalOrientedProgramming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionalOrientedProgramming.swift; sourceTree = "<group>"; };
+		1BDF73AC267FE9F10006DB65 /* KonesFromTheBeginning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KonesFromTheBeginning.swift; sourceTree = "<group>"; };
+		1BDF73AE267FF6D20006DB65 /* ReallyAdvancedPrinting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReallyAdvancedPrinting.swift; sourceTree = "<group>"; };
+		1BDF73B026824B040006DB65 /* PropertyWrappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrappers.swift; sourceTree = "<group>"; };
+		1BDF73B626824BAE0006DB65 /* KoansTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoansTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BDF73B826824BAE0006DB65 /* KoansTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoansTests.swift; sourceTree = "<group>"; };
+		1BDF73BA26824BAE0006DB65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BDF73C0268258170006DB65 /* GreatExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreatExtensions.swift; sourceTree = "<group>"; };
+		1BDF73C2268259F60006DB65 /* ReactorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactorWrapper.swift; sourceTree = "<group>"; };
+		1BDF73C426825A040006DB65 /* SpriteKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1BAE326A267C02DA005C38B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BDF73B326824BAE0006DB65 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				1BAE326F267C02DA005C38B6 /* SwiftKoans */,
+				1BDF73B726824BAE0006DB65 /* KoansTests */,
 				1BAE326E267C02DA005C38B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				1BAE326D267C02DA005C38B6 /* SwiftKoans */,
+				1BDF73B626824BAE0006DB65 /* KoansTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,9 +86,24 @@
 			isa = PBXGroup;
 			children = (
 				1BAE3270267C02DA005C38B6 /* main.swift */,
+				1BDF73AE267FF6D20006DB65 /* ReallyAdvancedPrinting.swift */,
+				1BDF73AC267FE9F10006DB65 /* KonesFromTheBeginning.swift */,
 				1BAE3277267C02F6005C38B6 /* FunctionalOrientedProgramming.swift */,
+				1BDF73B026824B040006DB65 /* PropertyWrappers.swift */,
+				1BDF73C2268259F60006DB65 /* ReactorWrapper.swift */,
+				1BDF73C426825A040006DB65 /* SpriteKit.swift */,
+				1BDF73C0268258170006DB65 /* GreatExtensions.swift */,
 			);
 			path = SwiftKoans;
+			sourceTree = "<group>";
+		};
+		1BDF73B726824BAE0006DB65 /* KoansTests */ = {
+			isa = PBXGroup;
+			children = (
+				1BDF73B826824BAE0006DB65 /* KoansTests.swift */,
+				1BDF73BA26824BAE0006DB65 /* Info.plist */,
+			);
+			path = KoansTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +126,23 @@
 			productReference = 1BAE326D267C02DA005C38B6 /* SwiftKoans */;
 			productType = "com.apple.product-type.tool";
 		};
+		1BDF73B526824BAE0006DB65 /* KoansTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BDF73BB26824BAE0006DB65 /* Build configuration list for PBXNativeTarget "KoansTests" */;
+			buildPhases = (
+				1BDF73B226824BAE0006DB65 /* Sources */,
+				1BDF73B326824BAE0006DB65 /* Frameworks */,
+				1BDF73B426824BAE0006DB65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KoansTests;
+			productName = KoansTests;
+			productReference = 1BDF73B626824BAE0006DB65 /* KoansTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -95,6 +153,9 @@
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					1BAE326C267C02DA005C38B6 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					1BDF73B526824BAE0006DB65 = {
 						CreatedOnToolsVersion = 12.5;
 					};
 				};
@@ -113,17 +174,43 @@
 			projectRoot = "";
 			targets = (
 				1BAE326C267C02DA005C38B6 /* SwiftKoans */,
+				1BDF73B526824BAE0006DB65 /* KoansTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BDF73B426824BAE0006DB65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1BAE3269267C02DA005C38B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BDF73AD267FE9F10006DB65 /* KonesFromTheBeginning.swift in Sources */,
+				1BDF73C526825A040006DB65 /* SpriteKit.swift in Sources */,
+				1BDF73C3268259F60006DB65 /* ReactorWrapper.swift in Sources */,
+				1BDF73C1268258170006DB65 /* GreatExtensions.swift in Sources */,
+				1BDF73AF267FF6D20006DB65 /* ReallyAdvancedPrinting.swift in Sources */,
 				1BAE3278267C02F6005C38B6 /* FunctionalOrientedProgramming.swift in Sources */,
+				1BDF73BF26824EAA0006DB65 /* PropertyWrappers.swift in Sources */,
 				1BAE3271267C02DA005C38B6 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BDF73B226824BAE0006DB65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BDF73BE26824BC10006DB65 /* PropertyWrappers.swift in Sources */,
+				1BDF73B926824BAE0006DB65 /* KoansTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +354,42 @@
 			};
 			name = Release;
 		};
+		1BDF73BC26824BAE0006DB65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R3PU6JKY2A;
+				INFOPLIST_FILE = KoansTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ubermaze.CloudKitTestMega.KoansTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1BDF73BD26824BAE0006DB65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R3PU6JKY2A;
+				INFOPLIST_FILE = KoansTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ubermaze.CloudKitTestMega.KoansTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -284,6 +407,15 @@
 			buildConfigurations = (
 				1BAE3275267C02DA005C38B6 /* Debug */,
 				1BAE3276267C02DA005C38B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BDF73BB26824BAE0006DB65 /* Build configuration list for PBXNativeTarget "KoansTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BDF73BC26824BAE0006DB65 /* Debug */,
+				1BDF73BD26824BAE0006DB65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
