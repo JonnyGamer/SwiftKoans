@@ -38,18 +38,23 @@ You'll be surprised that there is a warning:
 1        // ⚠︎ Integer literal is unused
 ```
 
-What!? How does this have a warning?
+What!? How does this have a warning?  
 Do you think you can explain why?
 
 ---
 
-1. Our four basic warnings (Respective to our four basic types)
+**Four Basic Warnings**
+
 ```swift
 true     // ⚠︎ Boolean literal is unused
 1        // ⚠︎ Integer literal is unused
 1.0      // ⚠︎ Floating-point literal is unused
 "hi"     // ⚠︎ String literal is unused
 ```
+
+---
+
+**Multiple Warnings**
 
 You can actually recieve more that one warning from one line of code
 
