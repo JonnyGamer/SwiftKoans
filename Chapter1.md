@@ -63,6 +63,11 @@ Can you find the pattern?
 1. Can one line of code contain more than 1 warnings?
 2. Can you find some other warnings?
 
+---
+
+**⚠︎⚠︎⚠︎ Warning Answers ⚠︎⚠︎⚠︎**
+
+
 
 **⚠︎⚠︎⚠︎ Multiple Warnings ⚠︎⚠︎⚠︎**
 
