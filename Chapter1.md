@@ -53,6 +53,9 @@ true     // ⚠︎ Boolean literal is unused
 "hi"     // ⚠︎ String literal is unused
 ```
 
+Can you find the pattern?  
+[Teacher: Explain a literal, Explain Floating-point]
+
 ---
 
 **⚠︎⚠︎⚠︎ Multiple Warnings ⚠︎⚠︎⚠︎**
