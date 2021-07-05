@@ -23,6 +23,11 @@ Comments
 # Welcome to Warnings
 ⚠︎⚠︎⚠︎ Warnings?? ⚠︎⚠︎⚠︎
 
+Warnings are useful! They are *not* errors.  
+Warnings only crop up when something unintended may take place.
+
+
+
 1. Our four basic warnings (Respective to our four basic types)
 ```swift
 true     // ⚠︎ Boolean literal is unused
