@@ -1,32 +1,33 @@
-//
-//  KoansTests.swift
-//  KoansTests
-//
-//  Created by Jonathan Pappas on 6/22/21.
-//
+
+// // // // // // // // // // // //
+//                               //
+//    Welcome to Swift Koans     //
+//      by Jonathan Pappas       //
+//                               //
+// // // // // // // // // // // //
 
 import XCTest
 
+
+
 class KoansTests: XCTestCase {
-
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    
+    func test1() throws {
+        
+        // Question 1
+        // Make it so that `Hello World!` is printed.
+        print("Hello, World?")
+        
+        try checkAnswer(#function)
     }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    
+    func test2() throws {
+        
+        // Question 2
+        // Make it so that `1` is printed
+        print("1")
+        
+        try checkAnswer(#function)
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
+    
 }

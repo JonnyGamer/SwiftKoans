@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B3F4FFF2693AFED00DE8B7E /* Chapter1Koans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3F4FFE2693AFED00DE8B7E /* Chapter1Koans.swift */; };
+		1B3F50012693D1C300DE8B7E /* SETUP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3F50002693D1C300DE8B7E /* SETUP.swift */; };
+		1B3F50042693D2EA00DE8B7E /* CheckAnswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3F50032693D2EA00DE8B7E /* CheckAnswer.swift */; };
 		1BAE3271267C02DA005C38B6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE3270267C02DA005C38B6 /* main.swift */; };
 		1BAE3278267C02F6005C38B6 /* FunctionalOrientedProgramming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE3277267C02F6005C38B6 /* FunctionalOrientedProgramming.swift */; };
 		1BDF73AD267FE9F10006DB65 /* KonesFromTheBeginning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDF73AC267FE9F10006DB65 /* KonesFromTheBeginning.swift */; };
@@ -32,6 +35,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1B3F4FFE2693AFED00DE8B7E /* Chapter1Koans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter1Koans.swift; sourceTree = "<group>"; };
+		1B3F50002693D1C300DE8B7E /* SETUP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SETUP.swift; sourceTree = "<group>"; };
+		1B3F50032693D2EA00DE8B7E /* CheckAnswer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckAnswer.swift; sourceTree = "<group>"; };
 		1BAE326D267C02DA005C38B6 /* SwiftKoans */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftKoans; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BAE3270267C02DA005C38B6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1BAE3277267C02F6005C38B6 /* FunctionalOrientedProgramming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionalOrientedProgramming.swift; sourceTree = "<group>"; };
@@ -86,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				1BAE3270267C02DA005C38B6 /* main.swift */,
+				1B3F4FFE2693AFED00DE8B7E /* Chapter1Koans.swift */,
 				1BDF73AE267FF6D20006DB65 /* ReallyAdvancedPrinting.swift */,
 				1BDF73AC267FE9F10006DB65 /* KonesFromTheBeginning.swift */,
 				1BAE3277267C02F6005C38B6 /* FunctionalOrientedProgramming.swift */,
@@ -101,6 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				1BDF73B826824BAE0006DB65 /* KoansTests.swift */,
+				1B3F50002693D1C300DE8B7E /* SETUP.swift */,
+				1B3F50032693D2EA00DE8B7E /* CheckAnswer.swift */,
 				1BDF73BA26824BAE0006DB65 /* Info.plist */,
 			);
 			path = KoansTests;
@@ -200,6 +209,7 @@
 				1BDF73C1268258170006DB65 /* GreatExtensions.swift in Sources */,
 				1BDF73AF267FF6D20006DB65 /* ReallyAdvancedPrinting.swift in Sources */,
 				1BAE3278267C02F6005C38B6 /* FunctionalOrientedProgramming.swift in Sources */,
+				1B3F4FFF2693AFED00DE8B7E /* Chapter1Koans.swift in Sources */,
 				1BDF73BF26824EAA0006DB65 /* PropertyWrappers.swift in Sources */,
 				1BAE3271267C02DA005C38B6 /* main.swift in Sources */,
 			);
@@ -211,6 +221,8 @@
 			files = (
 				1BDF73BE26824BC10006DB65 /* PropertyWrappers.swift in Sources */,
 				1BDF73B926824BAE0006DB65 /* KoansTests.swift in Sources */,
+				1B3F50042693D2EA00DE8B7E /* CheckAnswer.swift in Sources */,
+				1B3F50012693D1C300DE8B7E /* SETUP.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

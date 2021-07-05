@@ -7,8 +7,24 @@
 
 import Foundation
 
+
+
 print("Hello, World!")
-_ = Greatness()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//_ = Greatness()
 
 FunctionalOrientedProgramming.Lesson4().step1()
 FunctionalOrientedProgramming.Lesson4().step6()
