@@ -24,7 +24,18 @@ Comments
 ⚠︎⚠︎⚠︎ Warnings?? ⚠︎⚠︎⚠︎
 
 ```swift
-1
-
-
+true     // ⚠︎ Boolean literal is unused
+1        // ⚠︎ Integer literal is unused
+1.0      // ⚠︎ Floating-point literal is unused
+"hi"     // ⚠︎ String literal is unused
 ```
+
+```     1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.0
+// ⚠︎ '1000...000.0' overflows to inf during conversion to 'Double'
+// ⚠︎ Floating-point literal is unused
+```
+
+
+How can we get rid of this warning?  
+Or maybe... how will be *use* these values?
+
