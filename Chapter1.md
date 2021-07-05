@@ -58,6 +58,34 @@ Can you find the pattern?
 
 ---
 
+**⚠︎⚠︎⚠︎ Slightly Different Warnings ⚠︎⚠︎⚠︎**
+
+```swift
+true          // ⚠︎ Boolean literal is unused
+1             // ⚠︎ Integer literal is unused
+1.0           // ⚠︎ Floating-point literal is unused
+"hi"          // ⚠︎ String literal is unused
+```
+
+```swift
+Bool()        // Result of 'Bool' initializer is unused
+Int()         // Result of 'BinaryInteger' initializer is unused
+Double()      // Result of 'Double' initializer is unused
+String()      // Result of 'String' initializer is unused
+```
+
+```swift
+Int.zero      // Expression of type 'Int' is unused
+Double.pi     // Expression of type 'Double' is unused
+```
+
+```swift
+Bool.random() // Result of call to 'random()' is unused
+```
+
+
+---
+
 **⚠︎⚠︎⚠︎ Warning Challenges ⚠︎⚠︎⚠︎**
 
 1. Can one line of code contain more than 1 warnings?
