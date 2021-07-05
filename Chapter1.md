@@ -35,7 +35,7 @@ Fun Fact: You can still run your program, even if you have warnings!
 Here's some Swift code.  
 You'll be surprised that there is a warning:
 
-```
+```swift
 1        // ⚠︎ Integer literal is unused
 ```
 
