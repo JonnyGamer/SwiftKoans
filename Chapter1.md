@@ -6,6 +6,7 @@ Swift
 - **Chapter 1.1** - Honors Lessons
 
 Xcode
+- **Chapter 1.2** - Hello Xcode
 - **Chapter 1.2** - Welcome to Warnings
 - **Chapter 1.3** - Errors (and the Fix button)
 
@@ -15,5 +16,15 @@ Projects
 
 
 
+# Hello, Xcode
+Comments
+
+
 # Welcome to Warnings
 ⚠︎⚠︎⚠︎ Warnings?? ⚠︎⚠︎⚠︎
+
+```swift
+1
+
+
+```
