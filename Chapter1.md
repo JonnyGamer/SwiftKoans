@@ -26,7 +26,8 @@ Comments
 
 Warnings will highlight a line of code as `yellow`  
 Warnings only crop up when something unintended may take place.  
-Fun Fact: You can still run your program, even if you have warnings!
+Fun Fact: You can still run your program, even if you have warnings!  
+Typically, we try to fix warnings
 
 ---
 
@@ -108,12 +109,4 @@ The Double Underflow Warning
 // ⚠︎ '0.000....0001' underflows and loses precision during conversion to 'Double'
 // ⚠︎ Floating-point literal is unused
 ```
-
-
-
-
-
-
-How can we get rid of this warning?  
-Or maybe... how will be *use* these values?
 
