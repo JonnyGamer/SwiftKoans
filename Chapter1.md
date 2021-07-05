@@ -8,7 +8,7 @@ Swift
 Xcode
 - **Chapter 1.2** - Hello Xcode
 - **Chapter 1.2** - Welcome to Warnings
-- **Chapter 1.3** - Errors (and the Fix button)
+- **Chapter 1.3** - Errors (and the Fix button) build-time vs run-time
 
 Projects
 - **Chapter 1.4** - Printing!
@@ -57,6 +57,12 @@ Can you find the pattern?
 [Teacher: Explain a literal, Explain Floating-point]
 
 ---
+
+**⚠︎⚠︎⚠︎ Warning Challenges ⚠︎⚠︎⚠︎**
+
+1. Can one line of code contain more than 1 warnings?
+2. Can you find some other warnings?
+
 
 **⚠︎⚠︎⚠︎ Multiple Warnings ⚠︎⚠︎⚠︎**
 
