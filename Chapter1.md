@@ -30,6 +30,19 @@ Fun Fact: You can still run your program, even if you have warnings!
 
 ---
 
+**Your First Warning**  
+Here's some Swift code.  
+You'll be surprised that there is a warning:
+
+```
+1        // ⚠︎ Integer literal is unused
+```
+
+What!? How does this have a warning?
+Do you think you can explain why?
+
+---
+
 1. Our four basic warnings (Respective to our four basic types)
 ```swift
 true     // ⚠︎ Boolean literal is unused
