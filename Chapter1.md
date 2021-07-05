@@ -24,7 +24,9 @@ Comments
 ⚠︎⚠︎⚠︎ Warnings?? ⚠︎⚠︎⚠︎
 
 Warnings are useful! They are *not* errors.  
-Warnings only crop up when something unintended may take place.
+Warnings only crop up when something unintended may take place.  
+
+Fun Fact: You can still run your program, even if you have warnings!
 
 
 
