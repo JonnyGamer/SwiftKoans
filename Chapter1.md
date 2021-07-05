@@ -30,7 +30,8 @@ Fun Fact: You can still run your program, even if you have warnings!
 
 ---
 
-**Your First Warning**  
+**⚠︎⚠︎⚠︎ Your First Warning ⚠︎⚠︎⚠︎**
+
 Here's some Swift code.  
 You'll be surprised that there is a warning:
 
@@ -43,7 +44,7 @@ Do you think you can explain why?
 
 ---
 
-**Four Basic Warnings**
+**⚠︎⚠︎⚠︎ Four Basic Warnings ⚠︎⚠︎⚠︎**
 
 ```swift
 true     // ⚠︎ Boolean literal is unused
@@ -54,7 +55,7 @@ true     // ⚠︎ Boolean literal is unused
 
 ---
 
-**Multiple Warnings**
+**⚠︎⚠︎⚠︎ Multiple Warnings ⚠︎⚠︎⚠︎**
 
 You can actually recieve more that one warning from one line of code
 
