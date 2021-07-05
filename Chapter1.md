@@ -23,7 +23,7 @@ Comments
 # Welcome to Warnings
 ⚠︎⚠︎⚠︎ Warnings?? ⚠︎⚠︎⚠︎
 
-Our four basic warnings (Respective to our four basic types)
+1. Our four basic warnings (Respective to our four basic types)
 ```swift
 true     // ⚠︎ Boolean literal is unused
 1        // ⚠︎ Integer literal is unused
@@ -31,13 +31,25 @@ true     // ⚠︎ Boolean literal is unused
 "hi"     // ⚠︎ String literal is unused
 ```
 
+You can actually recieve more that one warning from one line of code
 
-You can actually recieve 2 warnings from one line of code:
+2. The Double Overflow Warning
 ```
 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.0
 // ⚠︎ '1000...000.0' overflows to inf during conversion to 'Double'
 // ⚠︎ Floating-point literal is unused
 ```
+
+3. The Double Underflow Warning
+```
+0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001
+// ⚠︎ '0.000....0001' underflows and loses precision during conversion to 'Double'
+// ⚠︎ Floating-point literal is unused
+```
+
+
+
+
 
 
 How can we get rid of this warning?  
