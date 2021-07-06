@@ -100,6 +100,42 @@ Objectives
  - Create your own boolean expression.
 ```
 
+```
+1.1. The Bool
+A Boolean is very simple: It is either true or false.
+Here are some examples of uses for Bools.
+
+a. Checking for Equality
+What if I want to check if two things are equal to each other? You will use Bools:
+ • true statement: 1 equals 1
+ • false statement: 1 equals 2
+ • true statement: "hello" equals "hello"
+ • true statement: true equals true
+ • false statement: true equals false
+ • true statement: false equals false
+
+b. Logical Statements
+What if I want some code to run if something is true, but not do it if it's false? You will use Bools:
+   if true {
+      // run this code if true is true
+   } else {
+      // run this code if true is false
+   }
+
+c. Stump Me Challenges: The Bool
+Determine if these statements are true or false:
+ 1• 100 equals 100
+ 2• true equals true equals true
+ 3• not true equals false
+ 4• 5 is less than 1
+ 5• 5 is less than 100 equals false
+ 6• true or false is true
+ 7• Jonathan Pappas is a cool dude
+I've been silly and snuck in a couple new concepts in these challenges:
+     'not', 'less than', 'or'
+We will learn about these in later chapters. Give your best guess!
+```
+
 ### 1-3 Integers
 ```
 Overview
