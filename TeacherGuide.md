@@ -211,6 +211,8 @@ Objectives
 
 ### Practicum 1-1 Welcome to Warnings
 
+---
+
 **⚠︎⚠︎⚠︎ Introduction ⚠︎⚠︎⚠︎**
 
 Warnings will highlight a line of code as `yellow`  
