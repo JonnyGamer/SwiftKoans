@@ -98,3 +98,107 @@ Objectives
  - Explain the different between signing and subtraction.
 ```
 
+### 1-5 The Double
+```
+Overview
+	◊ Discuss doubles.
+	◊ Look at examples of doubles.
+	◊ Discuss the different between integers and doubles.
+	◊ Discuss the reason why doubles are called doubles.
+	◊ Discuss how to turn a double into an integer, and vice versa.
+Keywords
+ • Double, Decimal Points, Converting from Type to Type
+Objectives
+ - Create a double.
+ - Explain how to create a valid double.
+ - Explain why Ints and Doubles are and should be different.
+ - Convert a double into an integer, and vice versa.
+```
+
+### 1-6 Strings
+```
+Overview
+ ◊ Discuss strings.
+ ◊ Discuss how to create a string.
+ ◊ Discuss why strings are called strings.
+ ◊ Discuss using emojis inside strings.
+ ◊ Discuss how to create a string across multiple lines.
+ ◊ Discuss the empty string.
+Keywords
+ • String, word, quotations, ASKII, Unicode, emoji, Multiline String, Triple quotes, String count
+Objectives
+ - Create a string.
+ - Create a multiline string.
+ - Create an empty string.
+```
+
+### Honors 1-1 Max Integer
+```
+Overview
+ ◊ Discuss infinity.
+ ◊ Discuss the largest representable integer.
+ ◊ Discuss how integers are represented under the hood.
+ ◊ Discuss how to make large integers easier to read.
+Keywords
+ • Maximum, Infinity, Binary Numbers, bits, Base 10, Base 64, 9223372036854775807
+Objectives
+ - Explain why infinity is not an integer.
+ - Explain the connection of binary numbers with integers.
+ - Find the maximum integer.
+ - Find the minimum integer.
+ - Explain the rare technique that can make integers easier to read.
+```
+
+### Honors 1-2 The Downfall of Doubles
+```
+Overview
+ ◊ Discuss unexpected situations when multiplying doubles.
+ ◊ Discuss how doubles are represented under the hood.
+ ◊ Discuss how "e" can be used with doubles.
+ ◊ Discuss a double's magnitude.
+ ◊ Discuss rounding errors with doubles.
+Keywords
+ • e, Magnitude
+Objectives
+ - Create a double using "e".
+ - Explain why Doubles have rounding errors.
+```
+
+### Honors 1-3 Infinity &c.
+```
+Overview
+ ◊ Discuss how to trigger an overflow.
+ ◊ Discuss how to trigger an underflow.
+ ◊ Discuss how to trigger nan.
+ ◊ Discuss how to trigger -nan.
+ ◊ Discuss an easy way to use pi.
+ ◊ Discuss the difference of division by zero between integers and doubles.
+Keywords
+ • Overflow, Underflow, nan, pi
+Objectives
+ - Figure out a reason to use infinity.
+ - Create pi.
+```
+
+### Honors 1-4 Meta Characters
+```
+Overview
+ ◊ Introduce 8 meta characters.
+ ◊ Discuss how to use a quotation inside of a string.
+ ◊ Discuss the newline meta character.
+ ◊ Discuss the tab meta character. Discuss how to create a tab inside of a string without touching the tab key.
+ ◊ Discuss interpolation.
+ ◊ Discuss hashtag delimiters.
+ ◊ Discuss recursive hashtag delimiters.
+Keywords
+ • Meta Character, Double Quote, Single Quote, Backslash, newline, tab, interpolation, Hashtag delimiters
+Objectives
+ - Explain why words are different than numbers or booleans.
+ - Explain why you would want a quotation inside your string.
+ - Use a quotation inside of your string.
+ - Use a meta character.
+ - Create a multiline string using one line of code.
+ - Add a tab inside of a string without clicking the tab key.
+ - Insert something into your string using interpolation.
+ - Explain when using a hashtag delimiter will make your string easier to read.
+```
