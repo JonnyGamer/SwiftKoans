@@ -207,6 +207,20 @@ Objectives
  - Explain when using a hashtag delimiter will make your string easier to read.
 ```
 
+
+---
+
+### Honors 1-5 Literals vs Initializers
+
+---
+
+```
+Int() == 0
+String() == ""
+Double() == 0.0
+Bool() == true
+```
+
 ---
 
 ### Practicum 1-1 Welcome to Warnings
