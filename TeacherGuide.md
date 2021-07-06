@@ -4,7 +4,7 @@ Welcome to your first week of Swift Master Class!
 Lesson 1 | Introduction to Types
 :-- | :--
  1-0 | [Hello World](#chapter-0)
- 1-1 | [Intro to Types](#1-1-introduction-to-types)
+ 1-1 | [Introduction to Types](#1-1-introduction-to-types)
  1-2 | [Booleans](#1-2-booleans)
  1-3 | Integers
  1-4 | The Double
