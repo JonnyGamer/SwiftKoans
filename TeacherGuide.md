@@ -27,6 +27,21 @@ Let's begin!
 
 ---
 
+# Contents
+
+Lesson 1 | Introduction to Types
+:--: | :--:
+ 1-1 | Introduction to Chapter 1
+ 1-2 | Booleans
+ 1-3 | Integers
+ 1-4* | Max Integer*
+ 1-5 | The Double
+ 1-6* | The Downfall of Doubles*
+ 1-7* | Infinity &c.
+ 1-8 | Strings
+ 1-9* | Meta Characters*
+
+
 
 
 #### Chapter 1
