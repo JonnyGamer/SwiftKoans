@@ -8,7 +8,7 @@ Lesson 1 | Introduction to Types
  1-2 | [Booleans](#1-2-booleans)
  1-3 | [Integers](#1-3-integers)
  1-4 | [The Double](#1-4-the-double)
- 1-5 | Strings
+ 1-5 | [Strings](#1-5-strings)
  
 Honors | Introduction to Types
 :-- | :--
