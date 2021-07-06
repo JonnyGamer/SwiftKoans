@@ -66,6 +66,7 @@ Objectives
  - Explain why you think statically typed programming languages are better.
  - Say the four basic types.
 ```
+
 ### 1-2 Booleans
 ```
 Overview
@@ -81,5 +82,18 @@ Objectives
  - Create your own boolean expression.
 ```
 
-
+### 1-3 Integers
+```
+Overview
+ ◊ Discuss integers.
+ ◊ Look at examples of whole numbers.
+ ◊ Discuss negative numbers.
+ ◊ Discuss signing versus subtraction.
+Keywords
+ • Int, Integer, Whole Number, Negative, Signing
+Objectives
+ - Create a whole number.
+ - Create a negative number.
+ - Explain the different between signing and subtraction.
+```
 
