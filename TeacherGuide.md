@@ -66,6 +66,20 @@ Objectives
  - Explain why you think statically typed programming languages are better.
  - Say the four basic types.
 ```
+### 1-2 Booleans
+```
+Overview
+ ◊ Discuss booleans.
+ ◊ Discuss how to create a boolean.
+ ◊ Discuss boolean expressions.
+Keywords
+ • Bool, boolean, true, false
+Objectives
+ - Explain the two possible states booleans can be.
+ - Explain why and when booleans are used.
+ - Evaluate boolean expressions on your own.
+ - Create your own boolean expression.
+```
 
 
 
