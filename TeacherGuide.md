@@ -3,7 +3,7 @@ Welcome to your first week of Swift Master Class!
 
 Lesson 1 | Introduction to Types
 :-- | :--
- 1-0 | [Hello World](https://github.com/JonnyGamer/SwiftKoans/blob/main/TeacherGuide.md#chapter-0)
+ 1-0 | [Hello World](#chapter-0)
  1-1 | Introduction to Chapter 1
  1-2 | Booleans
  1-3 | Integers
