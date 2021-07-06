@@ -18,8 +18,8 @@ A: It prints in the output panel: "Hello World!"
 
 ---
 
-Q: What is `print`?
-A: `print` is a function. It prints something in the output panel. In our case, it prints "Hello World!"
+Q: What is `print`?  
+A: print is a function. It prints something in the output panel. In our case, it prints "Hello World!"
 
 
 
