@@ -51,8 +51,5 @@ Let's begin!
 
 ---
 
-
-
-
-#### Chapter 1
-- Introduction to Types
+# Chapter 1
+Introduction to Types
