@@ -12,7 +12,7 @@ Lesson 1 | Introduction to Types
  
 Honors | Introduction to Types
 :-- | :--
- 1-1 | Max Integer
+ 1-1 | [Max Integer](#honors-1-1-max-integer)
  1-2 | The Downfall of Doubles
  1-3 | Infinity &c.
  1-4 | Meta Characters
