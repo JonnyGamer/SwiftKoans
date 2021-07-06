@@ -13,6 +13,10 @@ Why?
 
 ---
 
+Q: What does the *Hello World* program do?  
+A: It prints in the output panel: "Hello World!"
+
+
 ### Koan 0
 
 ```
