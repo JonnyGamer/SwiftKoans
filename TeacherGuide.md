@@ -1,3 +1,27 @@
+# Contents
+Welcome to your first week of Swift Master Class!
+
+Lesson 1 | Introduction to Types
+:-- | :--
+ 1-0 | Hello World
+ 1-1 | Introduction to Chapter 1
+ 1-2 | Booleans
+ 1-3 | Integers
+ 1-4 | The Double
+ 1-5 | Strings
+ 
+Honors | Introduction to Types
+:-- | :--
+ 1-1 | Max Integer
+ 1-2 | The Downfall of Doubles
+ 1-3 | Infinity &c.
+ 1-4 | Meta Characters
+
+Practicum | Introduction to Types
+:-- | :--
+ 1-1 | Welcome to Warnings
+ 1-2 | Errors
+
 # Chapter 0
 The Hello World Program
 
@@ -27,28 +51,7 @@ Let's begin!
 
 ---
 
-# Contents
 
-Lesson 1 | Introduction to Types
-:-- | :--
- 1-0 | Hello World
- 1-1 | Introduction to Chapter 1
- 1-2 | Booleans
- 1-3 | Integers
- 1-4 | The Double
- 1-5 | Strings
- 
-Honors | Introduction to Types
-:-- | :--
- 1-1 | Max Integer
- 1-2 | The Downfall of Doubles
- 1-3 | Infinity &c.
- 1-4 | Meta Characters
-
-Practicum | Introduction to Types
-:-- | :--
- 1-1 | Welcome to Warnings
- 1-2 | Errors
 
 
 #### Chapter 1
