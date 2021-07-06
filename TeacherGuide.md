@@ -52,4 +52,20 @@ Let's begin!
 ---
 
 # Chapter 1
-Introduction to Types
+
+### 1-1 Introduction to Types
+
+```
+Overview
+ ◊ Discuss type safety.
+ ◊ Introduce the four basic types in Swift.
+Keywords
+ • Swift, Programming Language, Types, Type Safety
+Objectives
+ - Explain what type safety is.
+ - Explain why you think statically typed programming languages are better.
+ - Say the four basic types.
+```
+
+
+
