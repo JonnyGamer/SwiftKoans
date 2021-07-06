@@ -18,10 +18,11 @@ Honors | Introduction to Types
  1-4 | Meta Characters
  1-5 | Literals vs Initializers
 
-Practicum | Introduction to Types
+Practicum | Hello Xcode
 :-- | :--
- 1-1 | Welcome to Warnings
- 1-2 | Errors
+ 1-1 | I have a comment
+ 1-2 | Welcome to Warnings
+ 1-3 | Errors
 
 # Chapter 0
 The Hello World Program
