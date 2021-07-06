@@ -15,7 +15,7 @@ Honors | Introduction to Types
  1-1 | [Max Integer](#honors-1-1-max-integer)
  1-2 | [The Downfall of Doubles](#honors-1-2-the-downfall-of-doubles)
  1-3 | [Infinity &c.](#honors-1-3-infinity-c)
- 1-4 | Meta Characters
+ 1-4 | [Meta Characters](#honors-1-4-meta-characters)
  1-5 | Literals vs Initializers
 
 Practicum | Hello Xcode
