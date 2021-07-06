@@ -30,7 +30,7 @@ Let's begin!
 # Contents
 
 Lesson 1 | Introduction to Types
-:--: | :--:
+:-- | :--
  1-1 | Introduction to Chapter 1
  1-2 | Booleans
  1-3 | Integers
