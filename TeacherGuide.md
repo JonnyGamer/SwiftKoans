@@ -20,6 +20,7 @@ Honors | Introduction to Types
 
 Practicum | Hello Xcode
 :-- | :--
+ 1-0 | Let's make a project
  1-1 | I have a comment
  1-2 | Welcome to Warnings
  1-3 | Errors
