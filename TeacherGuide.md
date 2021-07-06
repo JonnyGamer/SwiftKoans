@@ -16,6 +16,7 @@ Honors | Introduction to Types
  1-2 | The Downfall of Doubles
  1-3 | Infinity &c.
  1-4 | Meta Characters
+ 1-5 | Literals vs Initializers
 
 Practicum | Introduction to Types
 :-- | :--
