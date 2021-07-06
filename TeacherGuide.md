@@ -70,6 +70,21 @@ Objectives
  - Say the four basic types.
 ```
 
+```
+Introduction to Swift Types
+Swift is a 'Type Safe' language. This means numbers are always numbers, and words are always words.
+If you have a value that is a number, you are not allowed to reassign it to a word.
+What are the basic types in Swift?
+
+The 4 Basic Swift Types
+What are the basic types of the Swift Programming Language?
+ • Bool (The Boolean)
+ • Int (The Integer)
+ • Double (The Double)
+ • String (The String)
+These are the basic types in Swift: the building blocks.
+```
+
 ### 1-2 Booleans
 ```
 Overview
