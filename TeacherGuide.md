@@ -85,6 +85,20 @@ What are the basic types of the Swift Programming Language?
 These are the basic types in Swift: the building blocks.
 ```
 
+Swift is a *Type Safe* language.<br>
+Numbers are <u>always</u> Numbers.<br>
+Words are <u>always</u> Words.
+
+**The 4 Types in Swift**  
+Type Name | Example Values
+:-- | --:
+Bool | true, false
+Int | 1, 2, 3, 4, -1
+Double | 1.2, 3.14, 1.001
+String | "hello"
+
+
+
 ### 1-2 Booleans
 ```
 Overview
