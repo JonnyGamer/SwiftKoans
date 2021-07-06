@@ -101,11 +101,11 @@ Objectives
 ### 1-5 The Double
 ```
 Overview
-	◊ Discuss doubles.
-	◊ Look at examples of doubles.
-	◊ Discuss the different between integers and doubles.
-	◊ Discuss the reason why doubles are called doubles.
-	◊ Discuss how to turn a double into an integer, and vice versa.
+ ◊ Discuss doubles.
+ ◊ Look at examples of doubles.
+ ◊ Discuss the different between integers and doubles.
+ ◊ Discuss the reason why doubles are called doubles.
+ ◊ Discuss how to turn a double into an integer, and vice versa.
 Keywords
  • Double, Decimal Points, Converting from Type to Type
 Objectives
