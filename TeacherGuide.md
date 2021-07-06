@@ -38,14 +38,14 @@ Lesson 1 | Introduction to Types
  1-4 | The Double
  1-5 | Strings
  
-Lesson 1 Honors | Introduction to Types
+Honors | Introduction to Types
 :-- | :--
  1-1 | Max Integer
  1-2 | The Downfall of Doubles
  1-3 | Infinity &c.
  1-4 | Meta Characters
 
-Lesson 1 Practicum | Introduction to Types
+Practicum | Introduction to Types
 :-- | :--
  1-1 | Welcome to Warnings
  1-2 | Errors
